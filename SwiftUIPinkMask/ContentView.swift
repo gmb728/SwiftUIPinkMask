@@ -9,9 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showContentView = false
-    @State var selectedImage: Image?
-    
+      
     var body: some View {
        
         ZStack {
@@ -81,8 +79,7 @@ VStack{
     .font(.system(size: 40))
     .foregroundColor(Color(red: 244/255, green: 177/255,blue: 187/255))
     .bold()
-    
-     
+   
 }
     
 .offset(y: 150)
